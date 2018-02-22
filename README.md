@@ -5,7 +5,9 @@ Vue + Vuex + VueRouter + flexible
 本人不使用任何ui库
 
 ### 一些不足
-ios机制下第一次必须暂停后才能播放。浏览器头部自带高度,导致滑动黑色渐变溢出,这是浏览器问题，APP不会有这个情况
+ios机制下第一次必须暂停后才能播放。
+浏览器头部自带高度,导致滑动黑色渐变溢出,这是浏览器问题，APP不会有这个情况。
+mv播放模块还没做好
  
 ### 感谢
 首先感谢[Binaryify大神](https://github.com/Binaryify/NeteaseCloudMusicApi)的免费API
@@ -21,7 +23,7 @@ ios机制下第一次必须暂停后才能播放。浏览器头部自带高度,�
 ### 启动
 启动前要下载[NodeJs项目](https://github.com/Binaryify/NeteaseCloudMusicApi),安装依赖后启动服务器
 
-### 截图
+### 一部分截图
 ![1](https://github.com/ShuHongXie/IMG/blob/master/1.png "1")
 ![2](https://github.com/ShuHongXie/IMG/blob/master/2.png "2")
 ![3](https://github.com/ShuHongXie/IMG/blob/master/3.png "3")
