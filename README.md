@@ -22,6 +22,6 @@ ios机制下第一次必须暂停后才能播放。浏览器头部自带高度,�
 启动前要下载[NodeJs项目](https://github.com/Binaryify/NeteaseCloudMusicApi),安装依赖后启动服务器
 
 ### 截图
-https://github.com/ShuHongXie/IMG/blob/master/16.png 
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 
  
