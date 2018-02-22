@@ -1,0 +1,40 @@
+#about-user {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.462962rem;
+    background: #f2f4f5;
+    div {
+       margin-bottom: 0.74074rem;
+       p {
+            padding-left: 0.277777rem;
+            @include fontSize(26);
+            position: relative ;
+            margin-bottom: 0.24074rem;
+            height: 0.416666rem;
+            line-height: 0.416666rem;
+            &:before {
+               width: 0.055555rem;
+               height: 0.416666rem;
+               position: absolute;
+               left: 0; 
+               top: 0;
+               content: "";
+               background: #d33a31;
+            }
+        } 
+        ul {
+            padding: 0 0.277777rem;
+            li {
+                width: 100%;
+                height: 0.685185rem;
+                line-height: 0.685185rem;
+                @include fontSize(28);
+                word-break: break-word;
+                .notMsg {
+                   color: #919293;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,50 @@
+#search-album {
+    width: 100%;
+    background: #f2f4f5;
+    ul {
+        width: 100%;
+        padding-left: 0.166666rem;
+        padding-bottom: 1.361111rem;
+        li {
+            width: 100%;
+            height: 1.675925rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+            img:first-child {
+                width: 1.527777rem;
+                height: 1.5rem;               
+            }
+            .album {
+                width: 0.277777rem;
+                height: 1.5rem;
+            }
+            .music-album {
+                width: 100%;
+                height: 100%;
+                margin-left: 0.277777rem;
+                border-bottom: 0.018518rem solid #e7e9e9;
+                p {
+                    width: 7.407407rem;
+                    text-align: left;
+                    margin: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                p:first-child {
+                    margin-top: 0.277777rem;
+                    height: 0.648148rem;
+                    line-height: 0.648148rem;
+                    @include fontSize(34);
+                    color: #000;
+                }
+                p:last-child {
+                    line-height: 0.5rem;
+                    @include fontSize(24);
+                    color: #797a7b;
+                }
+            }
+        }
+    }
+}

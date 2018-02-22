@@ -1,0 +1,22 @@
+#app {
+    width: 100%;
+    height: 100%!important;
+    
+    .player-enter,.player-leave-to{
+        bottom: -100%;
+    }
+    .player-enter-to,.player-leave {
+        bottom: 0;
+    }
+    .player-enter-active,.player-leave-active {
+        transition: bottom .3s linear ;
+    }
+    
+    .opacity-enter-active, .opacity-leave-active {
+      transition: opacity .3s ;
+    }
+    .opacity-enter, .opacity-leave-to  {
+      opacity: 0 ;
+    }
+    
+}

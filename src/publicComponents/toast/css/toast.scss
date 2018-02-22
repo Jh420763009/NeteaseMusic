@@ -1,0 +1,16 @@
+#toast {
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    z-index: 99;
+    margin-left: -1.888888rem;
+    margin-top: -0.462962rem;
+    width: 3.777777rem;
+    height: 0.825925rem;
+    line-height: 0.825925rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 0.54074rem;
+    @include fontSize(26);
+}

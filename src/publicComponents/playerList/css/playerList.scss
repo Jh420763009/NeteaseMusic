@@ -1,0 +1,124 @@
+#player-list {
+    width: 100%;
+    height: 9.962962rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #f3f3f3;
+    z-index: 30;
+    .player-header {
+       width: 100%;
+       height: 1.379629rem;
+       border-bottom: 0.009259rem solid #dbdbdb; 
+       position: absolute;
+       left: 0;
+       top: 0;
+       z-index: 31;
+       display: flex;
+       justify-content: space-between;
+       background: #f3f3f3;
+       div:first-child {
+           width: 3.703703rem ;
+           height: 1.379629rem;
+           line-height: 1.379629rem;
+           text-align: center;
+           @include fontSize(28);
+           i {
+               margin-right: 0.203703rem;
+               @include fontSize(32);
+               color: #929292;
+           }
+       }
+       div:last-child {
+           width: 2.083333rem ;
+           height: 1.379629rem;
+           line-height: 1.379629rem;
+           text-align: center;
+           @include fontSize(32);
+           i {
+               margin-right: 0.203703rem;
+               @include fontSize(36);
+               color: #929292;
+           }
+       }
+    }
+    .list {
+        width: 100%;
+        margin-top: 1.388888rem;
+        padding-left: 0.277777rem;
+        height: 8.564814rem;
+        overflow-y: scroll;
+        ul {
+            li {
+                width: 100%;
+                height: 1.268518rem;
+                border-bottom:0.009259rem solid #dbdbdb ;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &.wasplaying {
+                    p {
+                        span{
+                            color: #d33a31; 
+                        }
+                        i {
+                            display:inline ;
+                            color: #d33a31;
+                        }
+                    }
+                    div {
+                        .about {
+                            display: inline;
+                        }
+                    }
+                }
+                &.notplaying {
+                    p {
+                        .name {
+                            color: #000; 
+                        }
+                        .ar {
+                            color: #7a7a7a; 
+                        }
+                        i {
+                            display:none ;
+                            color: #d33a31;
+                        }
+                    }
+                    div {
+                        .about {
+                            display: none;
+                        }
+                    }
+                }
+                p {
+                    margin: 0;
+                    width: 7.703703rem;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    .name {
+                        @include fontSize(30);
+                    }
+                    .ar {
+                        @include fontSize(26);
+                        color: #7a7a7a;
+                    }
+                    
+                }
+                div {
+                    width: 2.018518rem;
+                    display: flex;
+                    justify-content: flex-end;
+                    i {
+                        width: 1.009259rem;
+                        text-align: center;
+                        @include fontSize(32);
+                    } 
+                }
+                
+            }  
+        }
+        
+    }
+}

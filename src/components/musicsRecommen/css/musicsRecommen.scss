@@ -1,0 +1,178 @@
+#musics-recommon {
+    width: 100%;
+    .sheet-recommon,.exclusive,.newmusic,.recommon-mv,.radios {
+        background: #f2f4f5;
+        p:first-child {
+            padding-left: 0.277777rem;
+            @include fontSize(28);
+            position: relative ;
+            height:1.259259rem ;
+            line-height:1.259259rem ;
+            margin:0; 
+            &:before {
+               width: 0.055555rem;
+               height: 0.425925rem;
+               position: absolute;
+               left: 0; 
+               top: 0.388148rem;
+               content: "";
+               background: #d33a31;
+            }
+            i {
+                margin-left: 0.203703rem;
+                @include fontSize(24);
+            }
+        } 
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap:wrap;
+            margin: 0;
+            li {
+                width: 3.296296rem;
+                height: 4.861111rem;
+                //margin-right: 0.055555rem;
+                .count {
+                    position: relative;
+                    img {
+                        width: 3.296296rem;
+                        height: 3.296296rem;
+                    }
+                    div {
+                        position: absolute;
+                        height: 0.537037rem;
+                        line-height: 0.537037rem;
+                        top: 0;
+                        right: 0.129629rem;
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        z-index: 2;
+                        @include fontSize(22);
+                        i {
+                            line-height: 0.518518rem;
+                            color: #fff;
+                            margin-right: 0.022592rem; 
+                            @include fontSize(24); 
+                        }
+                    }  
+                }               
+                p {
+                    margin: 0.175925rem 0 0 0;
+                    padding: 0 0.185185rem;
+                    line-height: 0.444444rem;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    -moz-line-clamp: 2;
+                    overflow: hidden;
+                    @include fontSize(26);
+                }
+            }
+        }
+    }
+    .exclusive {
+        ul {
+            li {
+                width: 4.972222rem;
+                height: 4.37037rem;
+                img {
+                    width: 4.972222rem;
+                    height: 2.796296rem;
+                }
+            }
+            li:last-child {
+                width: 10rem ;
+                height: 4.37037rem;
+                margin-bottom: 0.555555rem;
+                img {
+                    width: 10rem ;
+                    height: 3.87037rem;
+                }
+            }
+        }  
+    }
+    .newmusic {
+        ul {
+            li {
+                img {
+                    width: 3.296296rem;
+                    height: 3.296296rem;  
+                }
+                p {
+                    height: 0.444444rem;
+                    line-height:0.444444rem;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    -moz-line-clamp: 1;
+                    overflow: hidden;
+                }
+                p:last-child {
+                    margin: 0;
+                    color: #797a7b;
+                    @include fontSize(24);
+                }
+            }
+        }
+    }
+    .recommon-mv {
+        ul {
+            li {
+                width: 4.972222rem;
+                height: 4.37037rem;
+                .count {
+                    div {
+                        
+                    }
+                    img {
+                        width: 4.972222rem;
+                        height: 2.796296rem;
+                    } 
+                }
+                p {
+                    height: 0.444444rem;
+                    line-height:0.444444rem;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    -moz-line-clamp: 1;
+                    overflow: hidden;
+                }
+                p:last-child {
+                    margin: 0;
+                    color: #797a7b;
+                    @include fontSize(24);
+                }
+            }
+        }
+    }
+    .radios {
+        margin-bottom: 1.361111rem;
+        ul {
+            li {
+                div {
+                   position: relative;
+                   img {
+                        width: 3.296296rem;
+                        height: 3.296296rem;
+                    } 
+                    div {
+                        position: absolute;
+                        width: 3.296296rem;
+                        height: 0.657407rem;
+                        line-height: 0.657407rem;
+                        left: 0;
+                        bottom: 0;
+                        text-indent: 0.092592rem;
+                        color: #fff;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

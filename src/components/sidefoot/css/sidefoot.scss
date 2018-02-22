@@ -1,0 +1,37 @@
+#slidefoot {
+    position: absolute;
+    bottom: 0;
+    width: 8.222222rem;
+    height: 1.259259rem;
+    z-index: 31;
+    background: #fff; 
+    border-top: 0.009259rem solid #d9d9d9;
+    .foot {
+        ul {
+            padding-left: 0.333333rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;           
+            li {
+                height: 1.259259rem;
+                display: flex;
+                align-items: center;
+                @include fontSize(26);
+                font-weight: 500;
+                margin-right: 0.462962rem ;                
+//              &:nth-child(1){
+//                  margin-right: 0.925925rem;
+//              }
+//              &:nth-child(2){
+//                  margin-right: 0.74074rem;
+//              }
+                i {
+                   @include fontSize(38);
+                   margin-right: 0.185185rem;
+                   color: #999;
+                } 
+            }
+        }
+    }
+}

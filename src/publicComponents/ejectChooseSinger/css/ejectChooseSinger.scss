@@ -1,0 +1,54 @@
+#eject-choosesinger{
+    position: fixed;
+    z-index: 30;
+    left: 50%;
+    top: 50%;
+    margin-left: -4.194444rem;
+    margin-top: -5.537037rem;
+    width: 8.388888rem;
+    height: 11.074074rem;
+    background: #f3f3f3;
+    padding: 0 0.555555rem;
+    .collect {
+        height: 1.796296rem;
+        line-height: 1.796296rem;
+        @include fontSize(34);
+        color: #000;
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        height: 9.259259rem;
+        overflow-y: scroll;
+        li {
+            height: 1.111111rem!important;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 0.277777rem;
+            img {
+                width: 1.111111rem;
+                height: 1.111111rem;
+                margin-right: 0.462962rem;
+            }
+            div {
+                width: 100%;
+                height: 1.111111rem;
+                p {
+                    height: 1.111111rem;
+                    line-height:1.111111rem;
+                    margin: 0;
+                    @include fontSize(30);
+                    color: #000;
+                }
+            }
+        }
+    }
+    .nologin {
+        width: 100%;
+        height: 100%;
+        line-height: 100%;
+        text-align: center;
+        @include fontSize(34);
+    }
+}

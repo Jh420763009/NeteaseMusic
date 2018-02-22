@@ -1,0 +1,122 @@
+#song-sheet {
+    .header {
+        width: 100%;
+        height: 0.833333rem;
+        background: #e7e9e9;
+        padding-left: 0.166666rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .up {
+           width: 0.629629rem;
+           height: 0.629629rem; 
+           text-align: center;
+           line-height:0.629629rem; 
+           @include fontSize(24);
+           color: #5c5d5d; 
+           transition: .4s ;
+           transform-origin:center;
+        }
+        .msg {
+            padding-left: 0.129629rem;
+            @include fontSize(24);
+            color: #5c5d5d;
+            line-height:0.833333rem;
+        }
+    }
+    .sheet-notlogin,.sheet-login {
+        width: 100%;
+        background: #f2f4f5;
+        ul {
+            padding-bottom: 0.833333rem;
+            border-bottom: 0.277777rem solid #e7e9e9;
+            li {
+                height: 1.648148rem;
+                display: flex;
+                justify-content: flex-start ;
+                border-bottom: 1px solid #e7e9e9;
+                div:nth-child(1) {
+                    width: 1.851851rem;
+                    height: 1.648148rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .like {
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        position: relative;
+                        margin-right: 0.277777rem;
+                        margin-left: 0.166666rem;
+                        img {
+                            width: 1.5rem;
+                            height: 1.5rem;
+                        }
+                        .black {
+                            position: absolute;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            left: 0;
+                            top: 0;
+                            background: black;
+                            opacity: 0.5;
+                            z-index: 2;
+                        }
+                        .love {
+                            position: absolute;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            left: 0;
+                            top: 0;
+                            z-index: 3;
+                            text-align: center;
+                            line-height: 1.5rem; ;
+                            i {
+                               @include fontSize(88);
+                               color: #fff;  
+                            }
+                        }
+                    }  
+                }
+                .music {
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+                    padding:0.092592rem 0 0 0.092592rem;
+                    @include fontSize(26);
+                    color: #797a7b;
+                    p {
+                        width: 6.481481rem;
+                        height: 0.962962rem;
+                        line-height: 0.962962rem;
+                        @include fontSize(34);
+                        color: black;
+                        margin: 0;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+                .playing {
+                    width: 1.648148rem;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i {
+                       @include fontSize(40); 
+                       color: #d33a31;
+                    }
+                } 
+            }
+        }
+        
+    }
+    .sheet-login {
+        ul {
+            padding-bottom: 0;
+            border: none;
+        }
+    }
+}

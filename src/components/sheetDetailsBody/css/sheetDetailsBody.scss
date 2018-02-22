@@ -1,0 +1,117 @@
+#sheetDetails-body {
+    width:100% ;
+    padding: 1.435185rem 0.277777rem 0 0.277777rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    .blur {
+        position: absolute;
+        left: -10%; 
+        top: -10%;
+        z-index: -1;
+        width: 120%;
+        height: 8.944444rem;
+        background-image:url(../../../assets/img/user/david.png);
+        background-size:cover ;
+        filter: blur(30px);
+        
+    }  
+    .msg {
+        height: 3.777777rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       .avatar {
+            width: 3.5rem;
+            height: 3.5rem;
+            position: relative;
+            margin: 0 0.462962rem 0 0.37037rem;
+            div {
+                position: absolute;
+                height: 0.518518rem;
+                top: 0;
+                right: 0.129629rem;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                z-index: 28;
+                i {
+                    line-height: 0.518518rem;
+                    color: #fff;
+                    margin-right: 0.022592rem; 
+                    @include fontSize(24); 
+                }
+            }
+            img {
+                width: 3.5rem;
+                height: 3.5rem;
+            }
+        }
+        .author {
+            width: 100%;
+            height: 100%;
+            padding-top:0.407407rem;
+            div:first-child {
+               width: 100%;
+               height: 1rem;
+               margin-bottom: 0.231481rem;
+               p {
+                    display: flex;
+                    justify-content: center;
+                    width: 5.111111rem;
+                    height: 1rem;
+                    line-height: 0.5rem;
+                    @include fontSize(36);
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    -moz-line-clamp: 2;
+                    overflow: hidden;
+                } 
+            }
+            
+            .to-user {
+                height: 0.722222rem;
+                display: flex;
+                align-items: center;
+                @include fontSize(28);
+                img {
+                    width: 0.722222rem;
+                    height: 0.722222rem;
+                    margin: 0 0.166666rem 0 0.055555rem;
+                    border-radius: 50%;
+                }
+                div {
+                    display: flex;
+                    align-items: center;
+                    color: #dce0e2;
+                    i {
+                        @include fontSize(20);
+                        margin-left: 0.111111rem;
+                        color: #dce0e2;
+                    }
+                }
+                
+            }
+        } 
+    }
+    ul {
+        width: 100%;
+        height: 1.722222rem;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        li {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            @include fontSize(28); 
+            i {
+                @include fontSize(44); 
+                margin-left: 0.092592rem;
+            }
+        }    
+    } 
+}

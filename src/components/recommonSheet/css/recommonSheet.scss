@@ -1,0 +1,31 @@
+#rec-sheet {
+    p {
+        width: 100%;
+        height: 1.481481rem;
+        line-height: 1.481481rem;
+        text-align: center;
+        @include fontSize(32);
+    }
+    .sheet {
+        display: flex;
+        justify-content: space-between ;
+        div {
+            
+            img {
+                width: 3.296296rem;
+                height: 3.333333rem;
+            }
+            p {
+                padding-left: 0.185185rem;
+                width: 3.296296rem; ;
+                height: 0.888888rem;
+                line-height: 0.888888rem;
+                @include fontSize(26);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            
+        }
+    }
+}

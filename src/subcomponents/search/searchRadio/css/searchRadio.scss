@@ -1,0 +1,66 @@
+#search-radio {
+    width: 100%;
+    background: #f2f4f5;
+    .radio {
+        width: 100%;
+        height: 0.703703rem;
+        line-height: 0.703703rem;
+        background: #e7e9e9;
+        padding-left: 0.314814rem;
+        margin: 0;
+    }
+    ul {
+        width: 100%;
+        padding-left: 0.166666rem;
+        padding-bottom: 1.361111rem;
+        background: #f2f4f5;
+        li {
+            width: 100%;
+            height: 1.675925rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+            img {
+                width: 1.5rem;
+                height: 1.5rem; 
+                margin-right: 0.277777rem;              
+//              &:before {
+//                  content: "xxxx";
+//                  position: absolute;
+//                  top: 0;
+//                  right: -0.277777rem;
+//                  width: 0.277777rem;
+//                  height: 1.5rem;
+//                  background-image: url('/src/assets/img/user/albumbg.png');
+//                  background-size:0.277777rem 1.5rem;
+//              }
+            }
+            .music-msg {
+                width: 100%;
+                height: 1.648148rem;
+                border-bottom: 0.018518rem solid #e7e9e9;
+                p {
+                    width: 7.407407rem;
+                    text-align: left;
+                    margin:0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;  
+                }
+                p:first-child {
+                    margin-top: 0.24074rem;
+                    height: 0.685185rem;
+                    line-height: 0.685185rem;
+                    @include fontSize(34);
+                    color: #000;
+                }
+                p:last-child {
+                    height: 0.462962rem;
+                    line-height: 0.462962rem;
+                    @include fontSize(24);
+                    color: #797a7b;
+                }
+            }
+        }
+    }
+}

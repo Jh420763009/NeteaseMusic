@@ -1,0 +1,38 @@
+#highquality-header {
+    width: 100%;
+    height: 1.453703rem;
+    background: #d33a31;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    z-index: 28;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    .back {
+        width: 1.537037rem;
+        height: 1.453703rem;
+        line-height:1.453703rem;
+        text-align: center; 
+        margin-right: 0.037037rem;      
+        i {
+           @include fontSize(34);
+        }
+    }
+    .tap {
+        height: 1.453703rem;
+        line-height:1.453703rem;
+        @include fontSize(30);
+        display: flex;
+        flex: 1;
+    }
+    .filter {
+        width: 1.333333rem;
+        height: 1.453703rem;
+        text-align: center;
+        line-height: 1.453703rem;
+        @include fontSize(30);
+        margin-right: 0.185185rem;
+    }
+}

@@ -1,0 +1,95 @@
+#albumDetails-body {
+    width:100% ;
+    padding: 1.435185rem 0.277777rem 0 0.277777rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    .blur {
+        position: absolute;
+        left: -10%; 
+        top: -10%;
+        z-index: -1;
+        width: 120%;
+        height: 8.944444rem;
+        background-image:url(../../../assets/img/user/david.png);
+        background-size:cover ;
+        filter: blur(30px);
+        
+    }  
+    .msg {
+        height: 3.777777rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       .avatar {
+            width: 4.055555rem;
+            margin: 0 0.407407rem 0 0.37037rem;
+            display: flex;
+            justify-content: flex-start;
+            img:first-child {
+                width: 3.481481rem;
+                height: 3.481481rem;
+                border: 0.009259rem solid #082551;
+            }
+            img:last-child {
+                width: 0.518518rem;
+                height: 3.481481rem;
+            }
+        }
+        .author {
+            height: 3.777777rem;
+            div:first-child {
+               width: 100%;
+               margin-top: 0.462962rem;
+               p {
+                    width: 4.24074rem;
+                    line-height: 0.574074rem;
+                    @include fontSize(36);
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    -moz-line-clamp: 2;
+                    overflow: hidden;
+                    margin: 0;
+                } 
+            }
+            
+            .to-user {
+                @include fontSize(28);
+                margin-top: 0.37037rem;
+                div {
+                    height: 0.62037rem;
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+                    color: #dce0e2;
+                    i {
+                        @include fontSize(20);
+                        margin-left: 0.111111rem;
+                        color: #dce0e2;
+                    }
+                }
+                
+            }
+        } 
+    }
+    ul {
+        width: 100%;
+        height: 1.722222rem;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        li {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            @include fontSize(28); 
+            i {
+                @include fontSize(44); 
+                margin-left: 0.092592rem;
+            }
+        }    
+    } 
+}

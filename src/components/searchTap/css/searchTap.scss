@@ -1,0 +1,31 @@
+#search-tap {
+    width: 100%;
+    margin: 2.5rem 0 0 0 ;
+    .tap {
+        position: fixed;
+        top: 1.453703rem;
+        left: 0;
+        width: 100%;
+        height: 1.055555rem;
+        display: flex;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        background: #fff;
+        z-index: 19;
+        margin: 0;
+        @include fontSize(26);
+        li {
+            max-width: 3.074074rem;
+            min-width: 2.111111rem;
+            text-align: center;
+//          padding: 0 0.685185rem;
+            height: 1.055555rem;
+            line-height: 1.055555rem;
+            border-bottom: 0.055555rem solid #fff;
+            &.v-link {
+               border-bottom: 0.055555rem solid #d33a31;
+               color: #d33a31; 
+            }
+        }
+    }
+}

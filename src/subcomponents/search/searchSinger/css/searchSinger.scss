@@ -1,0 +1,37 @@
+#search-singer {
+    background: #f2f4f5;
+    width: 100%;
+    ul {
+        width: 100%;
+        padding-left: 0.166666rem;
+        margin-bottom: 1.333333rem;
+        background: #f2f4f5;
+        li {
+            width: 100%;
+            height: 1.675925rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+            img {
+                width: 1.5rem;
+                height: 1.5rem;
+                margin-right: 0.277777rem;
+            }
+            .singer-msg {
+                width: 100%;
+                height: 1.648148rem;
+                line-height: 1.648148rem;
+                text-align: left;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-right: 0.277777rem;
+                @include fontSize(30);
+                border-bottom: 0.018518rem solid #e7e9e9;
+                span {
+                    color: #999;
+                }
+            }
+        }
+    }
+}

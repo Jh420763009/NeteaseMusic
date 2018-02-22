@@ -1,0 +1,24 @@
+#user-tap {
+    width: 100%;
+    .tap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        li {
+            width: 33.33333%;
+            height: 1rem ;
+            line-height: 1rem ;
+            text-align: center;
+            color: #666666;
+            font-weight: 200;
+            @include fontSize(28);
+            border-bottom:0.055555rem solid #fff ;
+            
+            &.v-link {
+                border-bottom:0.055555rem solid #d33a31 ;
+                color: #d33a31;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+#highquality-filter {
+    position: fixed;
+    z-index: 31;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #f2f4f5;
+    padding: 0 0.277777rem;
+    header {
+        width: 100%;
+        height: 1.453703rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include fontSize(34);
+        i {
+            margin-right: 0.203703rem;
+        }
+    }
+    .all {
+        width: 100%;
+        height: 1.685185rem;
+        display: flex;
+        align-items: center;
+        div {
+            width: 100%;
+            box-sizing: border-box;
+            height: 1.111111rem;
+            line-height: 1.111111rem;
+            border: 0.027777rem solid #cccdcd; 
+            text-align: center;
+            position: relative ;
+            @include fontSize(28);
+            i {
+               width: 0.527777rem;
+               height: 0.527777rem;
+               position: absolute;
+               right: 0; 
+               bottom: 0;
+               background-image: url(../../../assets/img/music/select.png);
+               background-size:cover ;
+            }
+            &.wasselect {
+                border: 0.027777rem solid #d33a31; 
+            }
+        }  
+    }
+    .type {
+        width: 100%;
+        padding-top: 0.277777rem;
+        ul {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            li {
+                width: 25%;
+                height: 1.111111rem;
+                line-height: 1.111111rem;
+                text-align: center;
+                border: 0.009259rem solid #cccdcd;      
+                //margin: 0 0 -0.009259rem -0.009259rem;
+                position: relative; 
+                z-index: 0;
+                @include fontSize(28);
+                i {
+                   width: 0.527777rem;
+                   height: 0.527777rem;
+                   position: absolute;
+                   right: 0; 
+                   bottom: 0;
+                   background-image: url(../../../assets/img/music/select.png);
+                   background-size:cover ;
+                }
+                &.wasselect {
+                    border: 0.009259rem solid #d33a31;   
+                }
+            }
+        }
+    }
+}

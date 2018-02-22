@@ -1,0 +1,35 @@
+#search {
+    width: 100%;
+    height: 100%;
+    background: #f2f4f5;
+    color: #5c5d5d;
+    .nofound {
+        margin-top: 2rem;
+        text-align: center;
+        @include fontSize(30);
+        color: #919293;
+    }
+    
+    .mainAnimate{
+        position: absolute;
+        transition: all .4s linear;
+    }
+    .to-left-enter,
+    .to-right-leave-avtive,
+    .to-right-leave-to{
+        transform: translate3D(-100%,0,0);
+    }
+    .to-right-enter,
+    .to-left-leave-avtive,
+    .to-left-leave-to{
+        transform: translate3D(100%,0,0);
+    }
+    
+    //侧边栏背景效果
+    .opacity-enter-active, .opacity-leave-active {
+      transition: opacity .4s ;
+    }
+    .opacity-enter, .opacity-leave-to  {
+      opacity: 0 ;
+    }
+}

@@ -1,0 +1,32 @@
+#loading {
+    width: 2.777777rem;
+    height: 2.777777rem;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -1.388888rem;
+    margin-top: -1.388888rem;
+    opacity: 0.5;
+    background: pink;
+    i {
+        animation: loading  1s linear infinite  ;
+        @include fontSize(100);
+        color: red;
+    }
+    
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

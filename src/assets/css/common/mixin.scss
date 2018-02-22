@@ -1,0 +1,26 @@
+@mixin fontSize($fontSize) {
+    font-size: round($fontSize / 2) * 1px;
+    [data-dpr = "2"] & {
+        font-size: $fontSize * 1px;
+    }
+    [data-dpr = "3"] & {
+        font-size: round($fontSize / 2 * 3) * 1px;
+    }
+    [data-dpr = "4"] & {
+        font-size: round($fontSize * 2) * 1px;
+    }
+}
+
+
+@mixin border-1px($color){
+    position: relative;
+    &:after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        border-top:1px solid $color;
+        content: '';
+    }
+}

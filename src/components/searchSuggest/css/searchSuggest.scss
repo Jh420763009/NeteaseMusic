@@ -1,0 +1,36 @@
+#search-suggest {
+    position: fixed;
+    top: 1.574074rem;
+    width: 9.259259rem;
+    left: 50%;
+    margin-left: -4.529629rem;
+    z-index: 30;
+    background-color:#f2f4f5 ;
+    box-shadow:1px 3px 20px #bdbebe;  
+    .search {
+        width: 100%;
+        height: 1.074074rem;
+        line-height: 1.074074rem;
+        @include fontSize(30);
+        padding-left: 0.37037rem;
+        color: #d33a31;
+    }
+    ul {
+        margin: 0;
+        li {
+            color: #5f6060;
+            border-top: 0.018518rem solid #e7e9e9;
+            height: 1.074074rem;
+            line-height: 1.074074rem;
+            padding-left: 0.37037rem;
+            @include fontSize(30);
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            i {
+                margin-right: 0.185185rem;
+                @include fontSize(28);
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+#rankinglist-body {
+    .content {
+        padding: 1.453703rem 0 1.361111rem 0 ;
+        background: #f2f4f5;
+        .official {
+            margin-bottom: 0.629629rem;
+            .title {
+                padding-left: 0.277777rem;
+                @include fontSize(32);
+                position: relative ;
+                height:1.277777rem ;
+                line-height:1.277777rem ;
+                margin:0; 
+                &:before {
+                   width: 0.055555rem;
+                   height: 0.425925rem;
+                   position: absolute;
+                   left: 0; 
+                   top: 0.388148rem;
+                   content: "";
+                   background: #d33a31;
+                }
+                i {
+                    margin-left: 0.203703rem;
+                    @include fontSize(24);
+                }
+            }
+            ul {
+                margin: 0;
+                li {
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-bottom: 0.083333rem;
+                    .img {
+                        position: relative;
+                        img {
+                            width: 3.296296rem;
+                            height: 3.296296rem;    
+                        } 
+                        div {
+                            position: absolute;
+                            padding:0 0.185185rem;
+                            height: 0.703703rem;
+                            line-height: 0.703703rem;
+                            left: 0;
+                            bottom: 0;
+                            color: #fff;
+                        }
+                    }
+                    .msg {
+                        width: 100%;
+                        padding-left: 0.277777rem;
+                        height: 3.287037rem;
+                        border-bottom: 0.009259rem solid #dadcdd;
+                        p {
+                            width: 6.018518rem;
+                            margin: 0;
+                            height: 0.925925rem;
+                            line-height: 0.925925rem;
+                            color: #616262;
+                            @include fontSize(30);
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                        p:first-child {
+                            margin-top: 0.24074rem;
+                        }
+                        p:last-child {
+                            margin-bottom: 0.24074rem;
+                        }
+                    }
+                }
+            }
+        } 
+        .global {
+            .title {
+                padding-left: 0.277777rem;
+                @include fontSize(32);
+                position: relative ;
+                height:1.277777rem ;
+                line-height:1.277777rem ;
+                margin:0; 
+                &:before {
+                   width: 0.055555rem;
+                   height: 0.425925rem;
+                   position: absolute;
+                   left: 0; 
+                   top: 0.388148rem;
+                   content: "";
+                   background: #d33a31;
+                }
+                i {
+                    margin-left: 0.203703rem;
+                    @include fontSize(24);
+                }
+            }
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap:wrap;
+                margin: 0;
+                li {
+                    width: 3.296296rem;
+                    height: 4.861111rem;
+                    //margin-right: 0.055555rem;
+                    .count {
+                        position: relative;
+                        
+                        img {
+                            width: 3.296296rem;
+                            height: 3.296296rem;
+                            //box-shadow:2px 2px 13px #000 inset;
+                        }
+                        div:first-child {
+                            position: absolute;
+                            padding:0 0.185185rem;
+                            height: 0.703703rem;
+                            line-height: 0.703703rem;
+                            left: 0;
+                            bottom: 0;
+                            color: #fff;
+                            z-index: 2;
+                        }  
+                        .bg {
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            height: 0.925925rem;
+                            left: 0;
+                            bottom: 0;
+                            background: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,255,255,0));
+                        }  
+                    }               
+                    .msgs {
+                        margin: 0.175925rem 0 0 0;
+                        padding: 0 0.185185rem;
+                        line-height: 0.444444rem;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        -moz-line-clamp: 2;
+                        overflow: hidden;
+                        @include fontSize(26);
+                    }
+                }
+            }
+        }        
+    }
+    
+}

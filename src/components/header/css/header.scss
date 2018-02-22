@@ -1,0 +1,42 @@
+
+#header {
+    background: #d33a31;
+    width: 100%;
+    height: 1.444444rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 27;
+    .menu,.search {
+        width: 1.444444rem;
+        height: 1.444444rem;
+        text-align: center;
+        line-height:1.444444rem;
+        i {
+           @include fontSize(40);
+           color: #fff;
+        }
+    }
+    .tab {
+        display: flex;
+        justify-content:center ;
+        div {
+            width: 1.444444rem;
+            height: 1.444444rem;
+            text-align: center;
+            line-height:1.444444rem;
+            
+            i {
+               @include fontSize(50);
+               color: #e58983; 
+               
+            } 
+        }
+        .v-link {
+                i {
+                    color: #fff;
+                }
+        }
+    }
+    
+}

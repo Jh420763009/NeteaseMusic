@@ -1,0 +1,103 @@
+#user-news {
+    width: 100%;
+    height: 88%;
+    background-color: #f2f4f5;
+    padding-bottom: 1.361111rem;
+    .comments {
+        ul {
+            margin: 0;
+            background: #f2f4f5;
+            li {
+                width: 100%;
+                padding-top: 0.277777rem;
+                padding-bottom: 0.277777rem;
+                border-bottom: 0.018518rem solid #e7e9e9;  
+                .msg {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    height: 1.129629rem;
+                   img {
+                        width: 1rem ;
+                        height: 1rem ;
+                        border-radius: 50%;
+                        margin: 0 0.277777rem;
+                    }
+                    .name {
+                        width: 6.944444rem;
+                        p {
+                            margin: 0;
+                        }
+                        p:first-child {
+                            width: 5.555555rem;
+                            height: 0.629629rem;
+                            line-height: 0.629629rem;
+                            @include fontSize(28);
+                            color: #616262;
+                            a {
+                                
+                            }
+                        }
+                        p:last-child {
+                            width: 5.555555rem;
+                            height: 0.433333rem;
+                            line-height: 0.433333rem;
+                            @include fontSize(22);
+                            color: #919293;
+                        }
+                    }
+                }
+                .comment { 
+                    margin:0.185185rem 0 0 1.388888rem;
+                    span {
+                        display: block;
+                        line-height: 0.833333rem;
+                        @include fontSize(28);
+                        padding-right: 0.407407rem;
+                    }
+                    .single {
+                        width: 8.194444rem;
+                        height: 1.333333rem;
+                        background-color: #e7e9e9;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        img {
+                            width: 1rem;
+                            height: 1rem;
+                            margin: 0 0.166666rem;
+                        }
+                        div {
+                            height: 1rem;
+                            p {
+                                width: 6.666666rem;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                margin: 0;
+                            }
+                            p:first-child {
+                                height: 0.611111rem;
+                                line-height: 0.611111rem;
+                                @include fontSize(28);
+                            }
+                            p:last-child {
+                                @include fontSize(22);
+                                color: #747575;
+                            }
+                        }
+                    }
+                    .mv {
+                        width: 8.203703rem;
+                        height: 4.601851rem;
+                        img {
+                            width: 8.203703rem!important;
+                            height: 4.601851rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

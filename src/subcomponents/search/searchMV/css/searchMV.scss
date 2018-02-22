@@ -1,0 +1,79 @@
+#search-mv {
+    background: #f2f4f5;
+    width: 100%;
+    ul {
+        width: 100%;
+        padding-left: 0.166666rem;
+        padding-bottom: 1.361111rem;
+        li {
+            width: 100%;
+            height: 2.055555rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+            .play {
+                margin-right: 0.277777rem;
+                position: relative;
+                div {
+                    position: absolute;
+                    height: 0.518518rem;
+                    top: 0;
+                    right: 0.129629rem;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    i {
+                        line-height: 0.518518rem;
+                        color: #fff;
+                        margin-right: 0.022592rem;  
+                    }
+                }
+                img {
+                    width: 2.962962rem;
+                    height: 1.666666rem;                       
+                }    
+            }
+            .music-mv {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                height: 1.981481rem;
+                border-bottom: 0.018518rem solid #e7e9e9;
+                p {
+                    width: 6.296296rem;
+                    text-align: left;
+                    margin: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                p:first-child {
+                    margin-top: 0.444444rem;
+                    height: 0.611111rem;
+                    @include fontSize(34);
+                    color: #000;
+                    display: flex;
+                    align-items: center;
+                    i {
+                        @include fontSize(50);
+                        color: #d33a31;
+                        margin-right: 0.111111rem;
+                    } 
+                    span {
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+                p:last-child {
+                    margin-top:0.055185rem;
+                    line-height: 0.5rem;
+                    @include fontSize(24);
+                    color: #797a7b;
+                }
+            }
+        }
+    }
+}

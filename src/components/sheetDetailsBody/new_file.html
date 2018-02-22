@@ -1,0 +1,55 @@
+<div class="msg">
+	<div class="avatar">
+		<div class="playcount">
+			<i class="iconfont icon-1"></i>
+			{{ msg.playCount }}
+		</div>
+		<div class="bgbox">
+			<img :src="msg.coverImgUrl"/>
+			<img src="../../assets/img/user/album.png"/>
+		</div>
+	</div>
+	<router-link tag='div' class="author" to='user'>
+		<p>{{ msg.name |  myLoveMusic}}</p>
+		<div class="to-user" >
+			<img :src="msg.creator.avatarUrl"/>
+			<div>{{ msg.creator.nickname }}<i class="iconfont icon-dayuhao"></i></div>
+		</div>
+	</router-link>
+</div>
+
+.avatar {
+    width: 3.981481rem;
+    height: 3.5rem;
+    position: relative;
+    margin: 0 0.462962rem 0 0.37037rem;
+    .playcount {
+        position: absolute;
+        height: 0.518518rem;
+        top: 0;
+        right: 0.129629rem;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        z-index: 28;
+        i {
+            line-height: 0.518518rem;
+            color: #fff;
+            margin-right: 0.022592rem; 
+            @include fontSize(24); 
+        }
+    }
+    .bgbox {
+        display: flex;
+        justify-content: flex-start;
+        img {
+            width: 3.5rem;
+            height: 3.5rem;
+        } 
+        img:last-child {
+            width: 0.462962rem;
+            height: 3.5rem;
+        } 
+    }
+    
+}

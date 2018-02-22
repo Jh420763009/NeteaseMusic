@@ -1,0 +1,137 @@
+@import './mixin.scss' ;
+@import './icon.scss' ;
+@import './reset.scss' ;
+@import url('//at.alicdn.com/t/font_516185_zc5t37hk40rx80k9.css');
+
+//全组件黑色背景
+@import '../../../publicComponents/blackbg/css/blackbg.scss' ;
+//全局loading组件
+@import '../../../publicComponents/loading/css/loading.scss' ;
+//全局loadingb组件(底部的继续加载中)
+@import '../../../publicComponents/loadingb/css/loadingb.scss' ;
+//全局loadingno(没有更多了)组件
+@import '../../../publicComponents/loadingno/css/loadingno.scss' ;
+//全局toast组件()
+@import '../../../publicComponents/toast/css/toast.scss' ;
+//全局delPrompt(删除提示)组件
+@import '../../../publicComponents/delPrompt/css/delPrompt.scss' ;
+//全局头部组件
+@import '../../../publicComponents/commonHeader/css/commonHeader.scss' ;
+//全局弹出单曲信息
+@import '../../../publicComponents/singleOperation/css/singleOperation.scss' ;
+//收藏到歌单时弹出的歌单
+@import '../../../publicComponents/ejectSongSheet/css/ejectSongSheet.scss' ;
+//当有多个歌手时确认要去的歌手
+@import '../../../publicComponents/ejectChooseSinger/css/ejectChooseSinger.scss' ;
+//全局播放器歌曲列表
+@import '../../../publicComponents/playerList/css/playerList.scss' ;
+
+
+//根div 
+@import './root.scss' ;
+
+//login组件
+@import '../../../page/login/css/login.scss' ;
+//home组件 和子组件
+@import '../../../page/home/css/home.scss' ;
+@import '../../../components/header/css/header.scss' ;
+@import '../../../components/sidebar/css/sidebar.scss' ;
+@import '../../../components/sidefoot/css/sidefoot.scss' ;
+
+//home下面list组件 及其子组件
+@import '../../../views/list/css/list.scss' ;
+@import '../../../components/listTab/css/listTab.scss' ;
+@import '../../../components/songSheet/css/songSheet.scss' ;
+@import '../../../components/recommonSheet/css/recommonSheet.scss' ;
+@import '../../../publicComponents/playTab/css/playTab.scss' ;
+
+//home下面dynamic(动态)及其子组件
+@import '../../../views/dynamic/css/dynamic.scss' ;
+
+//home下面music(音乐信息)及其子组件
+@import '../../../views/music/css/music.scss' ;
+//musics
+@import '../../../subcomponents/music/musics/css/musics.scss' ;
+@import '../../../components/musicsBanner/css/musicsBanner.scss' ;
+@import '../../../components/musicsMenu/css/musicsMenu.scss' ;
+@import '../../../components/musicsRecommen/css/musicsRecommen.scss' ;
+
+
+
+@import '../../../subcomponents/music/radios/css/radios.scss' ;
+@import '../../../subcomponents/music/videos/css/videos.scss' ;
+
+//playRecord组件 和子组件
+@import '../../../page/playRecord/css/playRecord.scss' ;
+//@import '../../../components/playRecordHeader/css/playRecordHeader.scss' ;
+@import '../../../components/playRecordBody/css/playRecordBody.scss' ;
+
+
+//user组件 和子组件
+@import '../../../page/user/css/user.scss' ;
+@import '../../../components/userHeader/css/userHeader.scss' ;
+@import '../../../components/userBody/css/userBody.scss' ;
+@import '../../../components/userFooter/css/userFooter.scss' ;
+@import '../../../components/userSheet/css/userSheet.scss' ;
+@import '../../../components/userNews/css/userNews.scss' ;
+@import '../../../components/aboutUser/css/aboutUser.scss' ;
+
+//search组件及其子组件
+@import '../../../page/search/css/search.scss' ;
+@import '../../../components/searchHeader/css/searchHeader.scss' ;
+@import '../../../components/searchSuggest/css/searchSuggest.scss' ;
+@import '../../../components/searchTap/css/searchTap.scss' ;
+
+@import '../../../subcomponents/search/searchAlbum/css/searchAlbum.scss' ;
+@import '../../../subcomponents/search/searchMV/css/searchMV.scss' ;
+@import '../../../subcomponents/search/searchRadio/css/searchRadio.scss' ;
+@import '../../../subcomponents/search/searchSheet/css/searchSheet.scss' ;
+@import '../../../subcomponents/search/searchSingle/css/searchSingle.scss' ;
+@import '../../../subcomponents/search/searchSinger/css/searchSinger.scss' ;
+@import '../../../subcomponents/search/searchUser/css/searchUser.scss' ;
+
+//sheetDetails(歌单详情)及其子组件
+@import '../../../page/sheetDetails/css/sheetDetails.scss' ;
+@import '../../../components/sheetDetailsHeader/css/sheetDetailsHeader.scss' ;
+@import '../../../components/sheetDetailsBody/css/sheetDetailsBody.scss' ;
+@import '../../../components/sheetDetailsFooter/css/sheetDetailsFooter.scss' ;
+
+//album(专辑详情)及其子组件(album的header和footer可以和sheetDetails共用,所以写一起)
+@import '../../../page/albumDetails/css/albumDetails.scss' ;
+@import '../../../components/albumDetailsBody/css/albumDetailsBody.scss' ;
+
+//comment(歌曲评论)/songsheetcomment(歌单评论)及其子组件 因为一样 所以写一起
+@import '../../../page/comment/css/comment.scss' ;
+@import '../../../components/commentHeader/css/commentHeader.scss' ;
+@import '../../../components/commentBody/css/commentBody.scss' ;
+@import '../../../components/commentFooter/css/commentFooter.scss' ;
+
+//highQuality(精品歌单)及其子组件
+@import '../../../page/highQuality/css/highQuality.scss' ;
+@import '../../../components/highQualityHeader/css/highQualityHeader.scss' ;
+@import '../../../components/highQualityBody/css/highQualityBody.scss' ;
+@import '../../../components/highQualityFilter/css/highQualityFilter.scss' ;
+
+//rankingList(排行榜)及其子组件
+@import '../../../page/rankingList/css/rankingList.scss' ;
+//@import '../../../components/rankingListHeader/css/rankingListHeader.scss' ;
+@import '../../../components/rankingListBody/css/rankingListBody.scss' ;
+
+//singer(歌手主页信息,单曲,专辑,描述等)及其子组件
+@import '../../../page/singer/css/singer.scss' ;
+@import '../../../components/singerHeader/css/singerHeader.scss' ;
+@import '../../../components/singerBody/css/singerBody.scss' ;
+@import '../../../components/singerMenu/css/singerMenu.scss' ;
+
+@import '../../../subcomponents/singer/singerSingle/css/singerSingle.scss' ;
+@import '../../../subcomponents/singer/singerMsg/css/singerMsg.scss' ;
+@import '../../../subcomponents/singer/singerMV/css/singerMV.scss' ;
+@import '../../../subcomponents/singer/singerAlbum/css/singerAlbum.scss' ;
+
+//dayrecommon(每日推荐)组件及其子组件
+@import '../../../page/dayRecommon/css/dayRecommon.scss' ;
+
+//player(播放器)组件及其子组件
+@import '../../../page/player/css/player.scss' ;
+@import '../../../components/playerHeader/css/playerHeader.scss' ;
+@import '../../../components/playerBody/css/playerBody.scss' ;

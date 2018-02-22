@@ -1,0 +1,63 @@
+#singer-body {
+    .bg {
+        width: 100%;
+        height: 5.222222rem;
+        background-position: 0 40%;
+        background-size: cover;
+        position: relative;
+        div:first-child {
+            position: absolute;
+            width: 2.388888rem;
+            height: 0.666666rem;
+            line-height: 0.666666rem;
+            border: 0.027777rem solid #d2d4d7;
+            right: 2.611111rem;
+            bottom: 0.333333rem;
+            text-align: center;
+            color: #fff;
+            border-radius: 0.34074rem;
+            @include fontSize(26);
+            background-color: rgba(0,0,0,0.4);
+            i {
+                margin-right: 0.148148rem;
+                @include fontSize(26);
+            }
+        }
+        .collect {
+            position: absolute;
+            width: 2.083333rem;
+            height: 0.666666rem;
+            line-height: 0.666666rem;
+            border: 0.027777rem solid #d2d4d7;
+            right: 0.333333rem;
+            bottom: 0.333333rem;
+            text-align: center;
+            color: #fff;
+            border-radius: 0.34074rem;
+            @include fontSize(26);
+            background-color: rgba(0,0,0,0.4);
+            i {
+                margin-right: 0.148148rem;
+                @include fontSize(26);
+            }
+        }
+    }
+    .tap {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        li {
+            width: 25%;
+            height: 1rem;
+            line-height: 1rem;
+            background: #fff;
+            text-align: center;
+            border-bottom:0.055555rem solid #fff ;
+            &.v-link {
+                color: #d33a31;
+                border-bottom: 0.055555rem solid #d33a31;
+            }
+        }
+    }
+}

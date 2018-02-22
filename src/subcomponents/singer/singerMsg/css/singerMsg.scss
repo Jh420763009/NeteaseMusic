@@ -1,0 +1,165 @@
+#singer-msg {
+    width: 100%;
+    background: #f2f4f5;
+    padding: 0.37037rem 0.277777rem 1.361111rem 0.277777rem;
+    height: 88%;
+    overflow-y: hidden;
+    .introduce {
+        .title {
+            padding-left: 0.277777rem;
+            @include fontSize(30);
+            position: relative ;
+            height:1.037037rem ;
+            line-height:1.037037rem ;
+            margin:0; 
+            &:before {
+               width: 0.055555rem;
+               height: 0.425925rem;
+               position: absolute;
+               left: 0; 
+               top: 0.288148rem;
+               content: "";
+               background: #d33a31;
+            }
+            i {
+                margin-left: 0.203703rem;
+                @include fontSize(24);
+            }
+        }
+        p {
+            line-height: 0.574074rem;
+            color: #616262;
+            @include fontSize(26);
+            margin: 0;
+        }
+        .more-introduce {
+            width: 100%;
+            height: 1.296296rem;
+            line-height: 1.296296rem;
+            text-align: center;
+            color: #919293;
+            @include fontSize(26); 
+            i {
+                @include fontSize(26);
+                margin-left: 0.203703rem;
+            }
+        }
+    }
+    .article {
+        margin-top: 0.416666rem;
+        .title {
+            padding-left: 0.277777rem;
+            @include fontSize(30);
+            position: relative ;
+            height:1.037037rem ;
+            line-height:1.037037rem ;
+            margin:0; 
+            &:before {
+               width: 0.055555rem;
+               height: 0.425925rem;
+               position: absolute;
+               left: 0; 
+               top: 0.288148rem;
+               content: "";
+               background: #d33a31;
+            }
+            i {
+                margin-left: 0.203703rem;
+                @include fontSize(24);
+            }
+        }
+        .msg {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 2.111111rem;
+            img {
+                width: 2.898148rem;
+                height: 1.925925rem;
+                margin-right: 0.277777rem;
+                border: 0.009259rem solid #e2decd;
+            }
+            div {
+                height: 2.009259rem;
+                border-bottom: 0.018518rem solid #e7e9e9;
+                p:first-child {
+                    width: 6.24074rem;
+                    height: 1.148148rem;
+                    margin: 0.138888rem 0 0 0 ;
+                    line-height: 0.555555rem;
+                    display: flex;
+                    align-items: center;
+                    @include fontSize(28);
+                }
+                p:last-child {
+                    width: 6.24074rem;
+                    height: 0.648148rem;
+                    margin: 0.138888rem 0 0 0 ;
+                    line-height: 0.648148rem;
+                    display: flex;
+                    align-items: center;
+                    @include fontSize(24);
+                    margin: 0;
+                    color: #797a7b;
+                }
+            }
+        }
+        .more-introduce {
+            width: 100%;
+            height: 1.296296rem;
+            line-height: 1.296296rem;
+            text-align: center;
+            color: #919293;
+            @include fontSize(26); 
+
+        }
+    }
+    .similar {
+        margin-top: 0.216666rem;
+        
+        .title {
+            padding-left: 0.277777rem;
+            @include fontSize(30);
+            position: relative ;
+            height:1.037037rem ;
+            line-height:1.037037rem ;
+            margin:0; 
+            &:before {
+               width: 0.055555rem;
+               height: 0.425925rem;
+               position: absolute;
+               left: 0; 
+               top: 0.288148rem;
+               content: "";
+               background: #d33a31;
+            }
+            i {
+                margin-left: 0.203703rem;
+                @include fontSize(24);
+            }
+        }
+        ul {
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            width: 100%;
+            li {
+                width: 2.222222rem;
+                margin-right: 0.416666rem;
+                img {
+                    width: 2.222222rem;
+                    height: 2.222222rem;
+                }
+                div {
+                    height: 0.87037rem;
+                    line-height: 0.87037rem;
+                    text-align: center;
+                    color: #797a7b;
+                    @fontSize(26);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+#sheetDetails {
+    width: 100%;
+    height: 100%;
+    
+    //侧边栏背景效果
+    .opacity-enter-active, .opacity-leave-active {
+      transition: opacity .4s ;
+    }
+    .opacity-enter, .opacity-leave-to  {
+      opacity: 0 ;
+    }
+    
+    //侧边栏效果
+    .side-enter {
+        bottom:-100%;
+    }
+    .side-enter-active,.side-leave-active {
+        transition: bottom .4s linear ;
+    }
+    .side-enter-to {
+        bottom: 0;
+    }
+    .side-leave {
+        bottom: 0 ;
+    }
+    .side-leave-to {
+       bottom:-100%;
+    }
+    
+    .scroll-enter {
+        transform: scale(0,0);
+    }
+    .scroll-enter-to {
+        transform: scale(1,1);
+    }
+    .scroll-enter-active,.scroll-leave-active {
+        transition: all .4s linear ;
+    }
+    .scroll-leave {
+        transform: scale(1,1);
+    }
+    .scroll-leave-to {
+        transform: scale(0,0);
+    }
+}

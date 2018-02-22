@@ -1,0 +1,86 @@
+#play-record-body {
+    color: #494a4a;
+    background-color: #f2f4f5;
+    .play {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; 
+        @include fontSize(34);
+        border-bottom: 0.018518rem solid #e7e9e9;
+        .play-all {
+            width: 1.388888rem;
+            height: 1.37037rem;
+            line-height: 1.37037rem;
+            text-align: center;
+            margin-right: 0.037037rem;
+            i {
+                @include fontSize(40);   
+            }
+        }  
+        div {
+            span {
+                color: #919293;
+            }
+        }
+    }
+    ul {
+        width: 100%;
+        padding-left: 0.277777rem;
+        padding-bottom: 1.361111rem;
+        margin: 0;
+        li {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 1.5rem;
+            border-bottom: 0.018518rem solid #e7e9e9;
+            .playnow {
+                width: 0.481481rem;
+                height: 0.925925rem;
+                line-height: 0.925925rem;
+                text-align: center;
+                margin-right: 0.444444rem;
+                i {
+                    @include fontSize(40);
+                    color: #d33a31; 
+                }
+            }
+            .music-msg {
+                width: 7.777777rem;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                height: 1.018518rem;
+                p {
+                    width: 100%;
+                    text-align: left;
+                    margin: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                p:first-child {
+                    line-height: 0.611111rem;
+                    @include fontSize(30);
+                }
+                p:last-child {
+                    line-height: 0.5rem;
+                    @include fontSize(24);
+                    color: #797a7b;
+                }
+            }
+            .list {
+                width: 0.74074rem;
+                height: 0.833333rem;
+                line-height: 0.833333rem;
+                text-align: center;
+                margin-right: 0.37037rem;
+                i {
+                    @include fontSize(48);
+                    color: #aaabac;
+                }
+            }
+        }
+    }
+}

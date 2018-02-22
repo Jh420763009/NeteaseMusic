@@ -1,0 +1,82 @@
+
+.login-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../../assets/img/login/loginbg.png);
+    background-size: cover;
+    .username,.password,.login {
+        width: 7.87037rem;
+        height: 1.111111rem;
+        position: relative;
+        margin-top: 7.5rem;
+        span:nth-child(1) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            @include fontSize(40);
+            width: 1.111111rem ;
+            height: 1.111111rem;
+            text-align: center;
+            line-height:1.111111rem;
+            i {
+                color: #ee3737;
+                @include fontSize(46);
+            }
+        }
+        input {
+            width: 100%;
+            height: 100%;
+            background: none;
+            border:0.027777rem solid red;
+            border-radius: 0.185185rem;
+            padding-left: 1.111111rem ;
+            color: #403f3f;
+        }
+    }
+    .password {
+        margin-top: 0.462962rem;
+        span:nth-child(2) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            @include fontSize(40);
+            width: 1.111111rem ;
+            height: 1.111111rem;
+            text-align: center;
+            line-height:1.111111rem;
+            i {
+                color: #ee3737;
+                @include fontSize(46);
+                &.hidepassword {
+                color: #716f71;
+                }
+                &.showpassword {
+                    color: #ee3737;
+                }
+            } 
+        }
+    }
+    .login {
+        margin-top: 0.462962rem; 
+        input {
+           padding: 0;
+           background: #e54141;
+           @include fontSize(35);
+           color: #fff;
+        }       
+    }
+    .alert {
+        position: absolute;
+        bottom: 3.703703rem;
+    }
+    
+    .toast-enter-active, .toast-leave-active {
+      transition: opacity .5s
+    }
+    .toast-enter, .toast-leave-to /* .fade-leave-active in below version 2.1.8 */ {
+      opacity: 0
+    }
+}

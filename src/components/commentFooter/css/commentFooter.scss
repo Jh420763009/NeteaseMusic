@@ -1,0 +1,112 @@
+#comment-footer {
+    p {
+        margin: 0;
+    }
+    .hot-comments {
+        width: 100%;
+        height: 0.694444rem;
+        line-height: 0.694444rem;
+        background: #e7e9e9;
+        padding-left: 0.277777rem;
+        color: #5c5d5d;
+    }
+    .not-comment {
+        width: 100%;
+        height: 4.351851rem;
+        line-height: 4.351851rem;
+        text-align: center;
+        @include fontSize(28);
+        color: #919293;
+    }
+    .comments {
+        ul {
+            margin: 0;
+            background: #f2f4f5;
+            li {
+                width: 100%;
+                padding-top: 0.277777rem;
+                .msg {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                   img {
+                        width: 0.833333rem;
+                        height: 0.833333rem;
+                        border-radius: 50%;
+                        margin: 0 0.277777rem;
+                    }
+                    .name {
+                        width: 6.944444rem;
+                        p:first-child {
+                            width: 5.555555rem;
+                            height: 0.462962rem;
+                            line-height: 0.462962rem;
+                            @include fontSize(28);
+                            color: #616262;
+                        }
+                        p:last-child {
+                            width: 5.555555rem;
+                            height: 0.433333rem;
+                            line-height: 0.433333rem;
+                            @include fontSize(22);
+                            color: #919293;
+                        }
+                    }
+                    .like {
+                        width: 1.944444rem;
+                        height: 0.5rem;
+                        line-height: 0.5rem;
+                        color: #919293;
+                        text-align: center;
+                        margin-right: 0.177777rem;
+                        @include fontSize(26);
+                        i {
+                            margin-left: 0.148148rem;
+                        }
+                        &.islike {
+                            color: #d33a31;
+                        }
+                        &.notlike {
+                            color: #919293;
+                        }
+                    } 
+                }
+                .comment { 
+                    //e7e9e9
+                    border-bottom: 0.018518rem solid #e7e9e9;  
+                    margin:0.185185rem 0 0 1.388888rem;
+                    span {
+                        display: block;
+                        line-height: 0.592592rem;
+                        @include fontSize(28);
+                        padding-bottom: 0.222222rem;
+                        padding-right: 0.407407rem;
+                        a {
+                            color: #507daf;
+                        }
+                    }
+                    div {
+                        background: #fff;
+                        line-height: 0.592592rem;
+                        border: 0.009259rem solid #dadcdd;
+                        padding: 0.212962rem 0.4rem 0.194444rem 0.259259rem;
+                        @include fontSize(28);
+                        margin: 0 0.407407rem 0.444444rem 0;
+                    }
+                }
+            }
+        }
+        //暂时没有此接口
+//      .allhot {
+//          width: 100%;
+//          color: #919293;
+//          height: 1.388888rem ;
+//          line-height: 1.388888rem;
+//          text-align: center;
+//          i {
+//              margin-left: 0.092592rem;
+//              @include fontSize(24);
+//          }
+//      }
+    }
+}

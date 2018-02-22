@@ -1,0 +1,49 @@
+#music {
+    width: 100%;
+    height: 100%;
+    margin: 2.453703rem 0 1.361111rem 0;
+    background: #f2f4f5;
+    position: relative;
+    .mainAnimate{
+        position: absolute;
+        transition: all .4s linear;
+    }
+    .to-left-enter,
+    .to-right-leave-avtive,
+    .to-right-leave-to{
+        transform: translate3D(-100%,0,0);
+    }
+    .to-right-enter,
+    .to-left-leave-avtive,
+    .to-left-leave-to{
+        transform: translate3D(100%,0,0);
+    }
+    .tap {
+        width: 100%;
+        height: 1.055555rem;
+        position: fixed;
+        top: 1.453703rem;
+        left: 0;
+        z-index: 2;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            background: #fff;
+            margin: 0;
+            height: 1.055555rem;
+            li {
+                width: 1.851851rem;
+                height: 1.055555rem ;
+                line-height: 1.055555rem ;
+                text-align: center;
+                border-bottom: 0.055555rem solid #fff;
+                color: #666666;
+                @include fontSize(26);
+                &.v-link {
+                    color: #d33a31;
+                    border-bottom: 0.055555rem solid #d33a31;
+                }
+            }
+        }
+    }
+}

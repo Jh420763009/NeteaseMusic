@@ -1,0 +1,53 @@
+#single-operation {
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+    height: 10.166666rem;
+    background: #f3f3f3;
+    left: 0;
+    bottom: 0;
+    padding: 0.407407rem 0.092592rem 0 0.092592rem;
+    overflow-y: scroll;
+    .music-name {
+        width: 100%;
+        height: 0.833333rem;
+        line-height: 0.833333rem;
+        padding-left: 0.203703rem;
+        @include fontSize(32);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    ul {
+        width: 100%;
+        li {
+            display: flex;
+            align-items:center ;
+            justify-content: flex-start;
+            div:first-child {
+                width: 1.222222rem;
+                height: 1.268518rem;
+                line-height: 1.268518rem;
+                text-align: center;
+                @include fontSize(38);
+                i {
+                    @include fontSize(60);
+                    color: #d33a31;
+                }
+            }
+            div:last-child {
+                width: 100%;
+                height: 1.268518rem;
+                line-height: 1.268518rem;
+                text-align: left;
+                @include fontSize(30);
+                border-bottom: 0.018518rem solid #e8e8e8;
+                padding-left: 0.37037rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+    
+}

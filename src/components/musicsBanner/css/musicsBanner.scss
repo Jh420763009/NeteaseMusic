@@ -1,0 +1,48 @@
+#musicsBanner {
+    width: 10rem;
+    height: 3.888888rem;
+    position: relative;
+    overflow: hidden;
+    ul {
+        position: absolute;
+        width: 10rem;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        left: 0;
+        top: 0;
+        li {
+            width: 10rem;
+            height: 100%;
+            img {
+                width: 10rem;
+                height: 3.888888rem;
+            }
+        }
+    }
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        z-index: 1;
+        bottom: 0.259259rem;
+        left: 3.851851rem;
+        a {
+            width: 0.194444rem;
+            height: 0.194444rem;
+            border-radius:50% ;
+            background-color: #5d5d5d;
+            margin-right: 0.212962rem;
+            &.active {
+                background-color: #a92e27;
+            }
+            &.none {
+                background-color: #5d5d5d;
+            }
+        }
+        a:last-child {
+            margin: 0;
+        }
+    }
+}
