@@ -26,5 +26,17 @@ ios机制下第一次必须暂停后才能播放。浏览器头部自带高度,�
 ![2](https://github.com/ShuHongXie/IMG/blob/master/2.png "2")
 ![3](https://github.com/ShuHongXie/IMG/blob/master/3.png "3")
 ![4](https://github.com/ShuHongXie/IMG/blob/master/4.png "4")
+![5](https://github.com/ShuHongXie/IMG/blob/master/5.png "5")
+![6](https://github.com/ShuHongXie/IMG/blob/master/6.png "6")
+![7](https://github.com/ShuHongXie/IMG/blob/master/7.png "7")
+![9](https://github.com/ShuHongXie/IMG/blob/master/9.png "9")
+![11](https://github.com/ShuHongXie/IMG/blob/master/11.png "11")
+![12](https://github.com/ShuHongXie/IMG/blob/master/12.png "12")
+![13](https://github.com/ShuHongXie/IMG/blob/master/13.png "13")
+![14](https://github.com/ShuHongXie/IMG/blob/master/14.png "14")
+![15](https://github.com/ShuHongXie/IMG/blob/master/15.png "15")
+![16](https://github.com/ShuHongXie/IMG/blob/master/16.png "16")
+![18](https://github.com/ShuHongXie/IMG/blob/master/18.png "18")
+![20](https://github.com/ShuHongXie/IMG/blob/master/20.png "20")
 
  
