@@ -1,7 +1,7 @@
 # NeteaseMusic
 这是我用vue2.0写的仿网易云音乐APP 觉得好的给个Star或Fork
 ## 技术栈
-Vue + Vuex + VueRouter + flexible + axios  
+Vue + Vuex + VueRouter + flexible + axios + sass 
 本人不使用任何ui库
 
 ### 一些不足
