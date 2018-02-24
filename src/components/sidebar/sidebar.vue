@@ -13,7 +13,7 @@
 								LV.{{ msg.level }}
 							</p>
 							<p class="sign">
-								<i class="iconfont icon-integral"></i> 签到
+								<!--<i class="iconfont icon-integral"></i>-->已签到
 							</p>
 						</div>
 						

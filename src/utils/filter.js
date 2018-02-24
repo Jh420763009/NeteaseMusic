@@ -33,6 +33,9 @@ Vue.filter('getPublishTime',(val)=>{
 
 //点赞数过滤
 Vue.filter('getCount',(val)=>{
+	if(val == 0) {
+		return 0 ;
+	}
 	var s = parseInt(val)/10000 ;
 	if(s>10){
 		return s.toString().substring(0,s.toString().indexOf('.')+2) + '万';

@@ -57,11 +57,13 @@
                         height: 0.5rem;
                         line-height: 0.5rem;
                         color: #919293;
-                        text-align: center;
-                        margin-right: 0.177777rem;
+                        text-align: right;
+                        
+                        margin-right: 0.277777rem;
                         @include fontSize(26);
                         i {
                             margin-left: 0.148148rem;
+                            @include fontSize(34);
                         }
                         &.islike {
                             color: #d33a31;
@@ -92,6 +94,9 @@
                         padding: 0.212962rem 0.4rem 0.194444rem 0.259259rem;
                         @include fontSize(28);
                         margin: 0 0.407407rem 0.444444rem 0;
+                        a {
+                            color: #507daf;
+                        }
                     }
                 }
             }

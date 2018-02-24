@@ -34,9 +34,11 @@
                     align-items: center;
                     height: 0.518518rem;
                     div:nth-child(1) {
+                        width: 1.481481rem;
                         i {
                             margin: 0 0.49074rem 0 0.638888rem;
                             color: #bcbbbb;
+                            @include fontSize(32);
                         }
                     }
                     div:nth-child(2) {

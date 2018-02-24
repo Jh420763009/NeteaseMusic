@@ -45,7 +45,7 @@
 						<p>{{ item.time | getCommentTime }}</p>
 					</div>
 					<div class="like" :class='item.liked ? "islike":"notlike"' @click='like(index)'>
-						{{ item.likedCount | getCount }}<i class="iconfont icon-dianzanshu"></i>
+						<span v-show='item.likedCount != 0'>{{ item.likedCount | getCount }}</span><i class="iconfont icon-dianzanshu"></i>
 					</div>
 				</div>
 				<div class="comment" v-if='item.beReplied.length == 0'>
@@ -173,6 +173,7 @@ export default {
 		}
 	},
 	mounted(){
+		
 		if(this.$route.query.id){
 			this.songId = this.$route.query.id ;
 		}
